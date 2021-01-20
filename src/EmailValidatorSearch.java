@@ -7,7 +7,7 @@ public class EmailValidatorSearch {
 		String emailID[] = { "john@gmail.com", "james@gmail.com", "katie@rediffmail.com", "priya@hotmail.com", "rohit11@gmail.com" };
 		Scanner scanner = new Scanner(System.in);
 		while (true) {
-			System.out.println("Enter the EmailID : ");
+			System.out.println("Enter the EmailID to be searched: ");
 			String input = scanner.next();
 			if (input.equals("E")) {
 				System.exit(0);
